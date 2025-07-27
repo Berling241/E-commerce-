@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Ma Boutique</title>
+  <style>
+    body {
+      font-family: sans-serif;
+      margin: 0;
+      padding: 0;
+      background: #f9f9f9;
+    }
+    header {
+      background: #222;
+      color: white;
+      padding: 20px;
+      text-align: center;
+    }
+    h1 {
+      margin: 0;
+      font-size: 24px;
+    }
+    .products {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
+      gap: 16px;
+      padding: 20px;
+    }
+    .product {
+      background: white;
+      border-radius: 10px;
+      padding: 10px;
+      box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+      text-align: center;
+    }
+    .product img {
+      width: 100%;
+      height: auto;
+      border-radius: 8px;
+    }
+    .product h3 {
+      font-size: 16px;
+      margin: 10px 0 5px;
+    }
+    .product p {
+      margin: 0;
+      color: #555;
+    }
+    .product button {
+      margin-top: 10px;
+      padding: 8px 12px;
+      background: #007bff;
+      color: white;
+      border: none;
+      border-radius: 5px;
+    }
+    .product button:hover {
+      background: #0056b3;
+    }
+  </style>
+</head>
+<body>
+
+  <header>
+    <h1>Ma Boutique Électronique & Bijoux</h1>
+  </header>
+
+  <section class="products">
+    <!-- Écouteurs sans fil -->
+    <div class="product"><img src="https://via.placeholder.com/150" alt=""><h3>Écouteurs sans fil X1</h3><p>10 000 FCFA</p><button>Ajouter</button></div>
+    <div class="product"><img src="https://via.placeholder.com/150" alt=""><h3>Airpods Pro</h3><p>15 000 FCFA</p><button>Ajouter</button></div>
+    <div class="product"><img src="https://via.placeholder.com/150" alt=""><h3>Mini Pods</h3><p>7 000 FCFA</p><button>Ajouter</button></div>
+
+    <!-- Casques Bluetooth -->
+    <div class="product"><img src="https://via.placeholder.com/150" alt=""><h3>Casque Bluetooth Bass</h3><p>20 000 FCFA</p><button>Ajouter</button></div>
+    <div class="product"><img src="https://via.placeholder.com/150" alt=""><h3>Casque Gamer LED</h3><p>25 000 FCFA</p><button>Ajouter</button></div>
+    <div class="product"><img src="https://via.placeholder.com/150" alt=""><h3>Casque Urban Style</h3><p>18 000 FCFA</p><button>Ajouter</button></div>
+
+    <!-- Colliers -->
+    <div class="product"><img src="https://via.placeholder.com/150" alt=""><h3>Collier croix dorée</h3><p>5 000 FCFA</p><button>Ajouter</button></div>
+    <div class="product"><img src="https://via.placeholder.com/150" alt=""><h3>Collier perle noire</h3><p>6 500 FCFA</p><button>Ajouter</button></div>
+    <div class="product"><img src="https://via.placeholder.com/150" alt=""><h3>Collier cœur</h3><p>4 000 FCFA</p><button>Ajouter</button></div>
+
+    <!-- Bagues -->
+    <div class="product"><img src="https://via.placeholder.com/150" alt=""><h3>Bague argentée</h3><p>3 000 FCFA</p><button>Ajouter</button></div>
+    <div class="product"><img src="https://via.placeholder.com/150" alt=""><h3>Bague diamant</h3><p>10 000 FCFA</p><button>Ajouter</button></div>
+    <div class="product"><img src="https://via.placeholder.com/150" alt=""><h3>Bague noire</h3><p>2 500 FCFA</p><button>Ajouter</button></div>
+
+    <!-- Bracelets -->
+    <div class="product"><img src="https://via.placeholder.com/150" alt=""><h3>Bracelet cuir homme</h3><p>4 500 FCFA</p><button>Ajouter</button></div>
+    <div class="product"><img src="https://via.placeholder.com/150" alt=""><h3>Bracelet doré</h3><p>6 000 FCFA</p><button>Ajouter</button></div>
+    <div class="product"><img src="https://via.placeholder.com/150" alt=""><h3>Bracelet tressé</h3><p>3 000 FCFA</p><button>Ajouter</button></div>
+  </section>
+
+</body>
+</html>
